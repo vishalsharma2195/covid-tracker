@@ -1,0 +1,71 @@
+$mainColor: rgb(3, 3, 58);
+
+.content{
+    background-color: rgb(240, 237, 237);
+    padding: 5px;
+    .img-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            width: 220px;
+            height: 200px;
+        }
+        h2{
+            margin-top: 10px;
+            font-size: 40px;
+            font-weight: 400;
+            text-decoration: underline;
+        }
+    }
+    .container{
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .item{
+            width: 300px;
+            height: 200px;
+            margin: 20px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            &:hover{
+                transform: scale(1.1);
+                transition: all 1s ease;
+            }
+            ul{
+                list-style: none;
+                margin: 10px;
+                padding: 10px;
+                text-align: center;
+                h2{
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+                li{
+                    margin-top: 30px;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .one{
+            background-color: lightcoral;
+        }
+        .two{
+            background-color: red;
+        }
+        .three{
+            background-color: rgb(233, 58, 58);
+        }
+        .four{
+            background-color: rgb(43, 202, 43);
+        }
+    }
+}
